@@ -1,17 +1,22 @@
 /* eslint-disable max-len */
+import NITR from '../../images/NITR.png'
 export default {
   id: 'home',
-  titleLine: { text: 'THE FIFTH EDITION' },
+  titleLine: { text: '' },
   tagline: {
-    taglinetext: 'IDEATE. IMPLEMENT. INNOVATE',
-    taglinedesc: "India's largest student run hackathon. Join the forces on 12-14th January.",
+    
+    taglinedesc: "Hop on the bandwagon, and join one of India’s largest Student-run hackathons. HackNITR is back with version 5.0, which is now fully offline!",
   },
   Hackimg: {
     src: 'https://res.cloudinary.com/ratnakar5938/image/upload/v1669992432/hn/Hack_n8mngx.png',
     alt: 'Hack',
   },
   NITRimg: {
-    src: 'https://res.cloudinary.com/ratnakar5938/image/upload/v1669992432/hn/NITR_cxww4q.png',
+    src: {NITR},
+    alt: 'NITR',
+  },
+  Fiveimg:{
+    src: {NITR},
     alt: 'NITR',
   },
   links: {

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import tw from 'twin.macro';
 import { Heading3 } from '../shared';
 
+
 export const SectionContainer = styled.div`
   ${tw`
     w-full
@@ -10,7 +11,7 @@ export const SectionContainer = styled.div`
     overflow-x-hidden
     overflow-y-hidden
     flex
-    flex-col
+    flex-row
     items-start
     justify-center
   `}
@@ -37,14 +38,46 @@ export const HeroTitle = styled.div`
     items-center
     flex-col
     px-5
+    pt-64
+    pl-64
+    pb-20
+    pr-64
+    
+    `}
+    
+`;
+
+export const HeroInside = styled.div`
+  ${tw`
+    flex
+    justify-center
+    items-center
+    flex-row
+    px-5
+    gap-0
     `}
 `;
 
-export const HeroHeading = styled.img`
+export const HACKimg = styled.img`
   ${tw`
-    object-contain
-    h-16
-    sm:h-28
+    flex
+    justify-center
+    items-center
+    w-96
+    flex-row
+    px-5
+    gap-3
+    `}
+`;
+
+
+export const HeroHeading = styled.div`
+  ${tw`
+  flex
+    float-right
+    // pt-0
+    // pl-96
+    // ml-80
     `}
 `;
 
@@ -62,13 +95,13 @@ export const SubTitle = styled.p`
 
 export const Tagline = styled.div`
   ${tw`
-    flex
-    flex-col
-    justify-center
-    items-center
-    font-Inter
-    mt-9
-    sm:mt-16
+    text-center 
+    text-lg 
+    not-italic 
+    font-semibold 
+    leading-7
+    
+
     `}
 `;
 
@@ -81,7 +114,7 @@ export const TagHead = styled(Heading3)`
 
 export const TaglineText = styled.p`
   ${tw`
-    mt-5
+    mt-4
     text-center
     text-color-secondary
     font-Inter
@@ -102,3 +135,6 @@ export const HeroButtons = styled.div`
     sm:mt-16
     `}
 `;
+
+
+

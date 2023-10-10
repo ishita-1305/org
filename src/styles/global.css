@@ -8,6 +8,7 @@
 *:after {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  /* background-image:  url( '../../images/bg.svg' ); */
 }
 
 html,

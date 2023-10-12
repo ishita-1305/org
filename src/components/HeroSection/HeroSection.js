@@ -55,14 +55,19 @@ export default function Hero() {
       <HeroBody>
         <HeroTitle className="hero h-100">
           <HeroInside>
-            <HACKimg className='hack_img ' src={HACK} alt="HACK"></HACKimg>
-            <img className='nitr_img' src={NITR} alt="NITR"></img>
+            <HACKimg className='hack_img w-64 md:w-72 lg:w-96' src={HACK} alt="HACK"></HACKimg>
+            <img className='nitr_img w-64 md:w-72 lg:w-96' src={NITR} alt="NITR"></img>
           {/* <HACKimg src={HACK} alt="HACK" ></HACKimg>
           <NITR src={NITR} alt="NITR" ></NITR> */}
           </HeroInside>
-          
-          <HeroHeading className='w-100 flex justify-end item-end' > 
-            <img src={FIVE}></img>
+          {/* className='w-full lg:w-full md:w-96 w-64' */}
+          <HeroHeading>
+            <div className='mx-auto w-full'>
+
+            <div className='flex justify-end lg:w-full md:w-96 w-64'>
+              <img src={FIVE} className='w-16 md:w-20 lg:w-28'></img>
+            </div>
+            </div>
           </HeroHeading>
           <Tagline>
           <TaglineText>{hero.tagline.taglinedesc}</TaglineText>
@@ -76,3 +81,20 @@ export default function Hero() {
     </SectionContainer>
   );
 }
+
+
+
+{/* <div>
+  <div>
+    <h1>Hack</h1>
+  </div>
+  <div>
+    <h1>NITR</h1>
+  </div>
+  <div>
+    <h1>Tagline</h1>
+  </div>
+  <div>
+    <h1>Five</h1>
+  </div>
+</div> */}

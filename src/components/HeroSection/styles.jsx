@@ -38,7 +38,7 @@ export const HeroTitle = styled.div`
     items-center
     flex-col
     px-5
-    pt-64
+    pt-32
     pl-64
     pb-20
     pr-64
@@ -74,7 +74,7 @@ export const HACKimg = styled.img`
 export const HeroHeading = styled.div`
   ${tw`
   flex
-    float-right
+    // float-right
     // pt-0
     // pl-96
     // ml-80

@@ -31,7 +31,7 @@ const RegisterButton = () => {
     //     Apply with Devfolio
     //   </div>
     // </div>
-    <div className="btn" ontouchstart="">
+    <div className="btn " ontouchstart="">
         <div className="register_btn">
           <button><a href="">REGISTER</a></button>
         </div>

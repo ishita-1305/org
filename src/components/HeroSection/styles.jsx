@@ -37,11 +37,12 @@ export const HeroTitle = styled.div`
     gap-3
     items-center
     flex-col
-    px-5
     pt-32
-    pl-64
+    // pl-64
     pb-20
-    pr-64
+    // pr-64
+    px-12
+    md:px-24
     
     `}
     
@@ -78,7 +79,21 @@ export const HeroHeading = styled.div`
     // pt-0
     // pl-96
     // ml-80
+    w-full
+    pr-12
+    sm:pr-28
+    md:pr-16
+    lg:pr-20
+    xl:pr-48
+    2xl:pr-72
     `}
+`;
+export const HeroHeadingBase = styled.div`
+  ${tw`
+    flex
+    justify-end
+    w-full
+  `}
 `;
 
 export const SubTitle = styled.p`
@@ -128,7 +143,10 @@ export const HeroButtons = styled.div`
   ${tw`
     flex
     sm:flex-row
-    flex-col
+    flex-row
+    sm:gap-4
+    md:gap-10
+    lg:gap-16
     justify-center
     items-center
     mt-9

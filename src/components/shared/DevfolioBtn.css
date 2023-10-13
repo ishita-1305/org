@@ -1,79 +1,64 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Varela+Round&display=swap');
-button{
-    position: relative;
-    display: inline-block;
-    /* margin: 20px; */
-    border: none;
-    border-radius: 30px;
-    background: transparent;
-  }
-  button a{
-    color:rgb(0, 0, 0);
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Varela Round', sans-serif;
-    font-weight:bold;
-    font-size:45px;
-    text-align: center;
-    text-decoration:none;
-    background-color: #ffffff;
-    display:block;
-    position:relative;
-    padding:35px 85px;
-    text-shadow: 0px 1px 0px #000;
-    box-shadow: #C48DFF 4px 4px, #FF8CD9 8px 8px, #35E1FF 12px 12px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 30px;
-    transition: box-shadow ease-in-out 2s;
-  }
-  button a:active{
-    top:10px;
-    background-color:#ffffff;
-    box-shadow:inset 0 1px 0 #000000, inset 0 -2px 0 #a30fd4;
-  }
-  button:after{
-    content:"";
-    height:100%;
-    width:100%;
-    padding:4px;
-    position: absolute;
-    bottom:-15px;
-    left:-4px;
-    z-index:-1;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-  }
-  @media (max-width: 640px) {
-    button {
-      margin: 20px;
-    }
-    button a {
-      font-size: 15px;
-      padding: 20px 35px;
-      border-radius: 15px;
-      box-shadow: #C48DFF 1px 1px, #FF8CD9 2px 2px, #35E1FF 3px 3px;
-    }
-  }
-  @media (max-width: 768px) {
-    button a {
-      font-size: 20px;
-      padding: 30px 60px;
-      border-radius: 20px;
-      box-shadow: #C48DFF 2px 2px, #FF8CD9 4px 4px, #35E1FF 6px 6px;
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    button a {
-      font-size: 30px;
-      padding: 35px 75px;
-      border-radius: 30px;
-      box-shadow: #C48DFF 3px 3px, #FF8CD9 6px 6px, #35E1FF 9px 9px;
-    }
-  }
-  
-  
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Varela+Round&display=swap');
+a{
+  color:rgb(0, 0, 0);
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  font-weight:bold;
+  font-size:45px;
+  text-align: center;
+  text-decoration:none;
+  background-color: #ffffff;
+  display:block;
+  position:relative;
+  padding:35px 85px;
+  text-shadow: 0px 1px 0px #000;
+  box-shadow: #C48DFF 4px 4px, #FF8CD9 8px 8px, #35E1FF 12px 12px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 30px;
+  transition: box-shadow ease-in-out 2s;
+}
+a:active{
+  top:10px;
+  background-color:#ffffff;
+  box-shadow:inset 0 1px 0 #000000, inset 0 -2px 0 #a30fd4;
+}
+a:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
 
-   
+@media (max-width: 1024px) {
+  a {
+    font-size: 35px;
+    padding: 30px 60px;
+    box-shadow: #C48DFF 3px 3px, #FF8CD9 6px 6px, #35E1FF 9px 9px;
+    border-radius: 25px;
+  }
+}
+@media (max-width: 768px) {
+  a {
+    font-size: 25px;
+    padding: 25px 40px;
+    box-shadow: #C48DFF 2px 2px, #FF8CD9 4px 4px, #35E1FF 6px 6px;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 640px) {
+  a {
+    font-size: 15px;
+    padding: 15px 25px;
+    box-shadow: #C48DFF 1px 1px, #FF8CD9 2px 2px, #35E1FF 3px 3px;
+    border-radius: 15px;
+  }
+}

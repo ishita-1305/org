@@ -14,6 +14,7 @@ export const SectionContainer = styled.div`
     flex-row
     items-start
     justify-center
+    
   `}
 `;
 
@@ -38,7 +39,7 @@ export const HeroTitle = styled.div`
     items-center
     flex-col
     px-5
-    pt-64
+    pt-28
     pl-64
     pb-20
     pr-64
@@ -70,16 +71,6 @@ export const HACKimg = styled.img`
     `}
 `;
 
-
-export const HeroHeading = styled.div`
-  ${tw`
-  flex
-    float-right
-    // pt-0
-    // pl-96
-    // ml-80
-    `}
-`;
 
 export const SubTitle = styled.p`
   ${tw`
@@ -116,11 +107,11 @@ export const TaglineText = styled.p`
   ${tw`
     mt-4
     text-center
-    text-color-secondary
-    font-Inter
-    px-5
-    text-sm
-    sm:text-lg
+    // text-color-secondary
+    // font-Inter
+    px-8
+    // text-sm
+    // sm:text-lg
     `}
 `;
 
@@ -128,13 +119,36 @@ export const HeroButtons = styled.div`
   ${tw`
     flex
     sm:flex-row
-    flex-col
+    flex-row
     justify-center
     items-center
-    mt-9
-    sm:mt-16
+    mt-6
     `}
 `;
 
+
+export const HeroHeading = styled.div`
+  ${tw`
+  flex
+    // float-right
+    // pt-0
+    // pl-96
+    // ml-80
+    w-full
+    pr-0
+    sm:pr-28
+    md:pr-4
+    lg:pr-0
+    xl:pr-16
+    2xl:pr-72
+    `}
+`;
+export const HeroHeadingBase = styled.div`
+  ${tw`
+    flex
+    justify-end
+    w-full
+  `}
+`;
 
 
